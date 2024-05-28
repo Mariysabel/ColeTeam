@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.titulo{
+    text-align: center;
+    position: relative;
+    color: #009EE3;
+}
+
+.info{
+    background-color: #021859;
+    color: #D6DBE2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-shadow: 5px;
+    
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.payment-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+button {
+    background: none;
+    border: 2px solid transparent;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: border 0.3s, background-color 0.3s;
+}
+
+button img {
+    width: 24px;
+    height: 24px;
+}
+
+.paypal-button {
+    color: #00457C;
+}
+
+.paypal-button:hover {
+    border-color: #00457C;
+    background-color: #f0f0f0;
+}
+
+.mercadopago-button {
+    color: #009EE3;
+}
+
+.mercadopago-button:hover {
+    border-color: #009EE3;
+    background-color: #f0f0f0;
+}
+
+.oxxo-button {
+    color: #E60000;
+}
+
+.oxxo-button:hover {
+    border-color: #E60000;
+    background-color: #f0f0f0;
+}
